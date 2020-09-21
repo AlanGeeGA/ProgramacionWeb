@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device=width, initial-scale=1.0">
+        <title> Formulario </title>
+    </head>
+    <body>
+        <form action="formulario.html">
+
+            <h3> text </h3>
+            <label for="nombre"> Nombre </label>
+            <input type="text" name="nombre" placeholder="Escribe tu nombre" size="50" id="nombre" maxlength="10" autofocus>
+            <!-- Puede tener: readonly, value, maxlength, pattern, autofocus-->
+
+            <h3> radio </h3>
+            <input type="radio" name="genero" value="hombre" checked> Hombre
+            <input type="radio" name="genero" value="mujer"> Mujer
+            <input type="radio" name="genero" value="otro"> Otro
+            <!-- Puede tener: value, checked-->
+
+            <h3> select </h3>
+            <select name="frutas">
+                <option value="fresa"> Fresa </option>
+                <option value="naranja"> Naranja </option>
+                <option value="uva"> Uva </option>
+            </select>
+
+            <h3> textarea </h3>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe aqui"> </textarea>
+
+            <h3> Datalist </h3>
+            <label> Buscador: </label>
+            <input list="buscador">
+            <datalist id="buscador">
+                <option value="Internet Explorer"></option>
+                <option value="Chrome"></option>
+                <option value="Opera"></option>
+            </datalist>
+
+            <input type="submit" value="Enviar">
+            <input type="image" src="" alt="">
+            <button> Enviar </button>
+        </form>
+    </body>
+</html>
