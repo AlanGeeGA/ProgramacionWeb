@@ -11,23 +11,33 @@
             <h3> text </h3>
             <label for="nombre"> Nombre </label>
             <input type="text" name="nombre" placeholder="Escribe tu nombre" size="50" id="nombre" maxlength="10" autofocus>
-            <!-- Puede tener: readonly, value, maxlength, pattern, autofocus-->
-
+            <!-- Puede tener: readonly, value, maxlength, pattern, autofocus, disabled -->
+            <!-- readonly - Te permite solo leer y no editar -->
+            <!-- autofocus - Solo se puede usar una vez en el código -->
+            
             <h3> radio </h3>
-            <input type="radio" name="genero" value="hombre" checked> Hombre
-            <input type="radio" name="genero" value="mujer"> Mujer
-            <input type="radio" name="genero" value="otro"> Otro
-            <!-- Puede tener: value, checked-->
+            <fieldset>
+                <legend> Genero </legend>
+                <input type="radio" name="genero" value="hombre" checked> Hombre
+                <input type="radio" name="genero" value="mujer"> Mujer
+                <input type="radio" name="genero" value="otro"> Otro
+                <!-- Puede tener: value, checked-->
+            </fieldset>
 
             <h3> select </h3>
-            <select name="frutas">
-                <option value="fresa"> Fresa </option>
-                <option value="naranja"> Naranja </option>
-                <option value="uva"> Uva </option>
+            <label for="frutas"> Frutas </label>
+            <select name="frutas" id="frutas">
+                <optgroup label="Favoritas">
+                    <option value="fresa"> Fresa </option>
+                    <option value="naranja" selected> Naranja </option>
+                </optgroup>
+                <optgroup label="Otras">
+                    <option value="uva"> Uva </option>
+                </optgroup> 
             </select>
 
             <h3> textarea </h3>
-            <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe aqui"> </textarea>
+            <textarea name="mensaje" id="mensaje" cols="20" rows="10" placeholder="Escribe aqui"> </textarea>
 
             <h3> Datalist </h3>
             <label> Buscador: </label>
@@ -38,9 +48,51 @@
                 <option value="Opera"></option>
             </datalist>
 
+            <h3> password </h3>
+            <label> Contraseña: </label>
+            <input type="password" required>
+
+            <h3> checked </h3>
+            <input type="checkbox" name="hola" value="valor1" checked> Hola
+            <input type="checkbox" name="adios" value="valor2"> Adios
+
+            <h3> color </h3>
+            <input type="color">
+
+            <h3> fecha </h3>
+            <input type="date" value="2000-12-06" min="2000-12-01">
+            <input type="datetime-local"> <!-- Se recomienda poner la hora y la fecha por separado -->
+            <input type="week">
+            <input type="month">
+            <input type="time">
+
+            <h3> email </h3>
+            <input type="email"> <!-- Tambien agarra placeholder y value-->
+
+            <h3> url </h3>
+            <input type="url">
+
+            <h3> numer </h3>
+            <input type="number" min="0" max="25" step="3">
+
+            <h3> rango </h3>
+            <input type="range" min="0" max="50" step="10">
+
+            <h3> search </h3>
+            <input type="search">
+
+            <h3> telefono </h3>
+            <input type="tel" pattern=""> <!-- Si estuvieras en el celular se pone un teclado con los numeros -->
+
+            <h3> archivos </h3>
+            <input type="file" multiple> <!-- multiple - Te permite seleccionar uno o más archivos-->
+
+            <br> <br>
             <input type="submit" value="Enviar">
-            <input type="image" src="" alt="">
+            <input type="image"> <!-- Funciona como el submit -->
             <button> Enviar </button>
+            
+            <input type="reset" value="Limpiar">
         </form>
     </body>
 </html>
