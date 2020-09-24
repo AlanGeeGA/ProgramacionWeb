@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial">
+        <title> Audio/Video </title>
+        <style>
+            video {
+                border-radius: 5px;
+                box-shadow: 10px 10px black;
+                width: 300px
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <h1> Multimedia </h1>
+            <article>
+                <h3> Audio </h3>
+                <audio controls autoplay loop preload> <!-- Se necesita el controls, y el autoplay hace que se reproduzca solo y también esta muted pero algunos no los soportan como Chrome-->
+                <!-- loop - Hace que se reproduzca infinitamente, preload - Es de que el video comience a reproducirse cuando se abra la pagina -->  
+                    <source src="audio/audiohtml5.mp4" type="audio/mp4">
+                    <source src="audio/audiohtml5.ogg"  type="audio/ogg">
+                </audio>
+                <audio controls>
+                    <source src="audio/musica.mp3">
+                </audio>
+            </article>
+            <article>
+                <h3> Video </h3>
+                <video controls poster="imagenes/thing.JPG" preload="auto"> <!-- Ya esta definido un tamaño -->
+                    <source src="video/Chrome_ImF.mp4"  type="video/mp4">
+                    <source src="video/Chrome_ImF.ogv">
+                    <source src="video/Chrome_ImF.webm">
+                </video> <!-- poster - Sirve para poner una ruta, de una imagen por mientras se carga el video -->
+                <video controls autoplay muted> <!-- No se recomienda ponerle src, ya que la opción que deberían de usar es la de abajo -->
+                    <source src="video/html5.mp4"> 
+                </video>
+            </article>
+            
+        </section>
+    </body>
+</html>
