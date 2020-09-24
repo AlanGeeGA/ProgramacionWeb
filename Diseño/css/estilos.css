@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@600&family=Oswald:wght@500;600&display=swap');
+
+@font-face {
+    font-family: 'Oswald';
+    src: url(Oswald/static/Oswald-Regular.ttf)
+}
+body{
+    margin: 0 auto;
+    max-width: 1024px;
+    background: lightskyblue;
+}
+
+body header{
+    background: lightslategray;
+    color: white;
+    text-align: center;
+    padding: 10px; /*El primero es para arriba y abajo y el segundo para los lados*/
+}
+
+body header h1 {
+    margin: 0 auto;
+    font-weight:  700;
+    text-shadow: 5px 5px grey;
+    font-family: 'Baloo Tammudu 2', serif;
+}
+
+body header nav ul{
+    background: black;
+}
+
+body header nav ul li {
+    display: inline-block; /*rompa la caja*/
+    background: black;
+    color: white;
+    margin: 0 15px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+body header nav ul li:hover {
+    color: black;
+    background: white;
+}
+
+footer {
+    background: lightgreen;
+    height: 50px;
+}
+
+#seccion1 {
+    background: white;
+    border: 3px solid black;
+}
+
+#seccion1 article {
+    display: inline-block;
+    border: 2px solid red;
+    width: 48%;
+    vertical-align: top;
+    margin-top: 20px;
+}
