@@ -99,3 +99,59 @@ Espacio: Es el espacio que ocupa el elemento en el documento, lo reserva el nave
     z-index: 0;
     margin: auto;
 }
+
+/* ---- FIXED ---- */
+
+body {
+    margin: 0 auto;
+}
+
+.menu {
+    background: blue;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+    /* position: fixed;
+    width: 100%;
+    top: 0; */
+    position: sticky;
+    top: 0;
+}
+
+.titulo {
+    margin: 0;
+}
+
+/* ---- STICKY ---- */
+
+.banner {
+    height: 100px;
+    background: darkgray;
+    font-size:  30px;
+    text-align: center;
+    line-height: 100px;
+}
+
+/* ---- PROPIEDAD DISPLAY ---- */
+/*
+    inline
+    block
+    inline-block
+    none
+*/
+.linea {
+    /*display: block;*/
+    background:  lightcoral;
+    display: inline-block; /* Me permite modificar el ancho y el alto como si fuera un block */
+    /*display: none;*/ /* Dejan de visualizarse en el navegador */
+
+}
+
+.bloque{
+    background: yellow;
+}
+
+nav ul li {
+    display: inline-block;
+}
