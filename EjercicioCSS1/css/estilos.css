@@ -1,0 +1,128 @@
+body {
+    margin: 0 auto;
+    font-size: 16px; /*1cm*/
+    max-width: 1024px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background: #cfe1eb;
+    position: relative;
+}
+
+header nav {
+    background: #0070c5;
+    width: 99%;
+    border-radius: 5px;
+    margin: 0 auto;
+}
+
+header nav ul {
+    display: inline-block;
+}
+
+header nav ul li {
+    display: inline-block;
+    color: #ffffff;
+    font-weight: 700;
+    margin-right: 20px;
+}
+
+header nav ul li:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+header nav form {
+    display: inline-block;
+    float: right;
+    margin: 10px 20px 0 0;
+}
+
+footer {
+    background: #152735;
+    height: 100px;
+    color: #ffffff;
+    padding: 10px;
+    margin-top: 20px;
+
+}
+
+footer section {
+    display: inline-block;
+    height: 90%;
+    background: #2a3c48;
+    vertical-align: middle;
+    width: 32%;
+    font-size: 40px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 15px 0 0 10px;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.buscador {
+    border-radius: 5px;
+    height: 30px;
+}
+
+.boton-buscar {
+    background: green;
+    color: #ffffff;
+    border: 1px solid green;
+    border-radius: 5px;
+    height: 30px;
+}
+
+.seccion1 {
+    margin-top: 15px;
+}
+
+.seccion1 {
+    text-align: center;
+}
+
+.seccion1 article img {
+    border: 5px solid rgb(215, 207, 207);
+    width: 98%;
+}
+
+.seccion2 {
+    margin-top: 10px;
+}
+
+.seccion2 article {
+    display: inline-block;
+    width: 32%;
+    vertical-align: top;
+}
+
+.seccion2 h1 {
+    font-size: 40px;
+    margin: 10px 0 0;
+}
+
+.seccion2 h2 {
+    font-size: 40x;
+    margin: 0;
+}
+
+.seccion2 video {
+    width: 98%;
+    height: 250px;
+    margin: 0 auto;
+}
+
+.ver-mas {
+    color: blue;
+    border: 1px solid rgb(198, 191, 191);
+    font-size: 16px;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-left: 30%;
+}

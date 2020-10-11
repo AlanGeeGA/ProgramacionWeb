@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    margin: 10px 30px; 
+    padding-right: 30px;
+}
+
+.logo {
+    position: relative;
+    width: 80px;
+    height: 80px;
+}
+
+header nav {
+    margin: 0 auto;
+    float: right;
+    width: 78%;
+    border-bottom: 2px solid black;
+    text-align: right;
+    padding-top: 23px;
+}
+
+header nav ul {
+    display: inline-block;
+    margin: 0 auto;
+}
+
+header nav ul li {
+    display: inline-block;
+    font-weight: 800;
+    font-size: 14px;
+    padding: 20px 40px 0px 40px;
+    border-left: 2px solid black;
+    margin: 0;
+}
+
+header nav ul li:hover {
+    background: black;
+    color: white;
+    margin: 0;
+    cursor: pointer;
+}
+
+.izq {
+    border-left: 2px solid transparent;
+}
+
+.centro {
+    padding-left: 200px;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.artletras {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+    padding-top: 30px;
+}
+
+.letras1 {
+    font-weight: 800;
+    font-size: 65px;
+    margin: 0;
+    line-height: 70px;
+    text-align: justify;
+}
+
+.letras2 {
+    font-weight: 750;
+    font-size: 39px;
+    margin: 0;
+    line-height: 45px;
+    text-align: justify;
+}
+
+.letras3 {
+    font-weight: 800;
+    font-size: 10px;
+    line-height: 20px;
+    margin: 0;
+    text-align: justify;
+}
+
+.artimg {
+    display: inline-block;
+    padding-left: 150px;
+}
+
+.nube {
+    width: 90%;
+}
+
+footer {
+    background: black;
+    margin: 40px 0px;
+}
+
+.footer1 {
+    text-align: left;
+    display: inline-block;
+    padding: 15px 20px 10px 150px;
+}
+
+.footer2 {
+    text-align: right;
+    display: inline-block;
+    padding-left: 450px;
+    vertical-align: top;
+    padding-top: 20px;
+}
+
+.pie1 {
+    color:  rgba(255, 255, 255, 0.713);
+    font-size: 12px;
+    line-height: 1px;
+    margin: 0;
+}
+
+.pie2 {
+    color: white;
+    font-size: 30px;
+    line-height: 1px;
+    font-family: 'Bebas Neue';
+    margin: 0;
+}
+
+.pie3 {
+    color:  rgba(255, 255, 255, 0.713);
+    font-size: 12px;
+    line-height: 2px;
+}
+
+.pie4 {
+    color: rgba(255, 255, 255, 0.713);
+    font-size: 12px;
+    line-height: 2x;
+}
+
+.gris {
+    color: rgba(128, 128, 128, 0.664);
+}
