@@ -1,0 +1,245 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(216, 216, 216);
+}
+
+.divlogo {
+    background: rgb(43, 83, 114);
+    text-align: center;
+    height: 90px;
+}
+
+#logo {
+    width: 20%;
+}
+
+.barra {
+    text-align: right;
+    margin: 25px 70px 40px 0;
+}
+
+.barra ul li {
+    padding-left: 20px;
+    display: inline-block;
+    text-decoration: underline;
+}
+
+aside, .seccion {
+    display: inline-block;
+}
+
+aside {
+    width: 25%;
+    vertical-align: top;
+}
+
+.panel1 {
+    background:  rgb(76, 116, 146);
+    margin: 0 40px 30px 20px;
+    text-align: left;
+}
+
+.panel2 {
+    background: white;
+    margin: 0 40px 0 20px;
+    text-align: left;
+}
+
+.links {
+    background: rgb(43, 83, 114);
+    font-size: 12px;
+    color: white;
+    padding: 2px 0 2px 17px;
+}
+
+#cosa {
+    width: 5%;
+    padding-right: 2px;
+}
+
+.panel1 ul {
+    vertical-align: top;
+    margin: 0;
+    padding: 0;
+    padding: 10px 0 10px 12px;
+}
+
+.panel1 ul li {
+    color: white;
+    padding: 5px;
+    list-style: none;
+    font-size: 14px;
+}
+
+.progress {
+    background: rgb(43, 83, 114);
+    font-size: 12px;
+    color: white;
+    padding: 2px 0 2px 17px;
+}
+
+.divprog {
+    vertical-align: top;
+    padding: 1px 0 10px 17px;
+    font-size: 14px
+}
+
+.divprog progress[value] {
+    height: 20px;
+    width: 80%;
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid silver;
+}
+
+.divprog progress[value]::-webkit-progress-bar {
+    background-color: rgb(230, 230, 230);
+  }
+
+.prog1[value]::-webkit-progress-value {
+    background-color: rgb(73, 36, 73);
+}
+
+.prog2[value]::-webkit-progress-value {
+    background-color: rgb(41, 99, 57);
+}
+
+.prog3[value]::-webkit-progress-value {
+    background-color: rgb(223, 123, 31);
+}
+
+.seccion {
+    width: 70%;
+    background: white;
+    border-radius: 25px;
+}
+
+.art1, .art2, .art3{
+    text-align: center;
+}
+
+.seccion h1 {
+    padding-left: 35px;
+    text-align: left;
+}
+
+.art1div1, .art1div2, .art1div3, .art1div4 {
+    display: inline-block;
+    width: 22%;
+    margin: 0 10px 0 10px;
+    border-radius: 10px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+#imgcubes {
+    width: 30%;
+    padding-top: 5px;
+}
+
+.texto {
+    margin: 0;
+    padding: 10px 30px;
+}
+
+.art1div1 {
+    background: rgb(61, 163, 69);
+}
+
+.art1div2 {
+    background: rgb(228, 187, 25);
+}
+
+.art1div3 {
+    background: rgb(110, 27, 138);
+}
+
+.art1div4 {
+    background: rgb(116, 27, 27);
+}
+
+.art2div1, .art2div2, .art2div3 {
+    display: inline-block;
+    width: 30%;
+    margin: 0 5px 0 5px;
+    font-size: 15px;
+    text-align: center;
+}
+
+.art2div1 {
+    border: 1px solid rgb(199, 226, 255);
+}
+
+.art2div2 {
+    border: 1px solid rgb(252, 233, 186);
+}
+
+.art2div3 {
+    border: 1px solid rgb(189, 146, 146);
+}
+
+#grafico {
+    width: 90%;
+    padding-top: 5px;
+}
+
+.art2 h2 {
+    font-size: 30px;
+    color: white;
+    margin: 0;
+}
+
+.art2div1 div {
+    background: rgb(199, 226, 255);
+}
+
+.art2div2 div {
+    background:rgb(252, 233, 186);
+}
+
+.art2div3 div {
+    background: rgb(189, 146, 146);
+}
+
+.art3div1, .art3div2, .art3div3, .art3div4 {
+    display: inline-block;
+    background: rgb(43, 83, 114);
+    text-align: center;
+    width: 20%;
+    vertical-align: top;
+    margin: 0 20px 20px 20px;
+}
+
+#user {
+    margin: 20px 0;
+    border-radius: 100px;
+}
+
+.art3div1 #user {
+    width: 51%;
+}
+
+.art3div2 #user {
+    width: 50%;
+}
+
+.art3div3 #user {
+    width: 53%;
+}
+
+.art3div4 #user {
+    width: 47%;
+}
+
+.mensaje {
+    display: inline;
+    background: lightblue;
+    color: white;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    padding: 7px 10px;
+    margin: 5px 10px 20px 10px;
+}
