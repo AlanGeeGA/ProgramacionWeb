@@ -1,0 +1,164 @@
+body {
+    margin: 0 auto;
+    max-width: 1024px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    position: relative;
+    margin: 15px 20px;
+}
+
+header h1 {
+    color: white;
+    font-size: 25px;
+    text-shadow: 0 0 1px black;
+    margin: 0 0 35px;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 15px 10px 15px 10px;
+}
+
+.redes {
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.barra {
+    color: white;
+    font-weight: 600;
+    border-radius: 7px;
+    background-image: linear-gradient(#ef6000 5%, #fed0b2 10%, #ef6000 40%);
+}
+
+aside {
+    width: 37%;
+}
+
+aside, .seccion1 {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.seccion1 {
+    width: 60%;
+}
+
+.secc1art1 {
+    text-align: center;
+}
+
+.img-slider {
+    width: 90%;
+}
+
+.secc1art2 {
+    margin: 0 25px;
+    padding: 20px 0;
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+}
+
+.secc1art2 h2 {
+    margin: 0 0 10px;
+    color: grey;
+}
+
+.img-post, .contenido-post {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img-post {
+    width: 28%;
+    border: 6px solid silver;
+}
+
+.contenido-post {
+    width: 68%;
+    padding-left: 4px;
+}
+
+.secc1art2 p {
+    font-size: 12px;
+}
+
+.autor-post {
+    box-shadow: 1px 1px 0 0  rgb(169, 164, 164);
+    width: 98%;
+    display: block;
+    background: rgb(255, 252, 252);
+    font-size: 12px;
+    padding: 8px 5px;
+    border-radius: 8px;
+}
+
+.italica-autor {
+    font-style: italic;
+    color: gray;
+}
+
+#leer-mas {
+    background: silver;
+    color: white;
+    border-radius: 8px;
+    padding: 8px 10px;
+    border: none;
+    font-style: italic;
+}
+
+.centrar {
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 12px;
+}
+
+.publicidad, .buscador, .categorias {
+    border: 1px solid grey;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.publicidad-imagenes {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.buscador form span {
+    border: 1px solid silver;
+    border-radius: 18px;
+    padding: 8px 5px;
+}
+
+.buscador form {
+    text-align: center;
+    margin: 15px 0 10px;
+    
+}
+
+.form-buscador {
+    border-radius: 12px;
+    padding: 5px;
+    border: inherit;
+}
+
+.form-boton {
+    border-radius: 15px;
+    color: white;
+    background: silver;
+    border: 1px solid grey;
+    height: 30px;
+}
+
+
+.categorias ul li {
+    font-size: 15px;
+    color: rgb(108, 107, 107);
+    border-bottom: 1px dotted;
+    padding: 5px;
+    margin-right: 35px;
+}
