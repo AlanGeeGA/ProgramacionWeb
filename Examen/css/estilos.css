@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: white;
+}
+
+header {
+    text-align: center;
+}
+
+#logo {
+    width: 15%;
+}
+
+.barra ul {
+    border-top: 1px solid silver;
+    border-bottom: 1px solid silver;
+
+}
+
+.barra ul li, .menu {
+    display: inline-block;
+    padding: 10px 20px 10px 20px;
+}
+
+.menu {
+    color: silver;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.menu:hover {
+    color: black;
+    font-weight: bold;
+    border-bottom: 3px solid rgba(255, 185, 7, 0.85);
+}
+
+.boton {
+    background: rgba(255, 185, 7, 0.85);
+    font-size: 17px;
+    border: none;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.seccion1, .seccion2 {
+    display: inline-block;
+}
+
+.seccion1 {
+    width: 50%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.secc1art1, .secc1art2 {
+    width: 70%;
+    padding-left: 30%;
+}
+
+.titulo {
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.question {
+    margin: 0;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.meet {
+    margin: 0;
+    font-size: 20px;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.texton {
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+}
+
+.karen {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+    display: inline-block;
+}
+
+.itc {
+    margin: 0;
+    padding-left: 1%;
+    font-style: italic;
+    display: inline-block;
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+}
+
+.aprender {
+    display: inline-block;
+    font-size: 20px;
+    color: rgb(39, 186, 235);
+    font-weight: bold;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif;
+}
+
+.cosita {
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 1%;
+}
+
+.seccion2 {
+    width: 48%;
+}
+
+#libros {
+    width: 75%;
+}
+
+.seccion3 {
+    text-align: center;
+    padding-top: 3%;
+}
+
+.ordenar {
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+}
+
+.exp {
+    margin: 0;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: grey;
+}
+
+.seccion4 {
+    text-align: center;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 10%;
+}
+
+.secc4art1, .secc4art2, .secc4art3, .secc4art4 {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 50px 0 50px;
+}
+
+.amazon {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: grey;
+    font-weight: bold;
+    border: 1px solid rgba(255, 185, 7, 0.85);
+    padding: 10px 20px 10px 20px;
+}
+
+#indie {
+    width: 80%;
+}
+
+#barnes {
+    width: 65%;
+}
+
+#spd {
+    width: 50%;
+}
